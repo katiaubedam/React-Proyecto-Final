@@ -24,7 +24,7 @@ function App() {
   let [user, setUser] = useState(null)
 
   let [datos, setDatos] = useState([])
-  let [url, setUrl] = useState("http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/search.php?term=")
+  let [url, setUrl] = useState("http://chanchullogames.infinityfreeapp.com/search.php?term=")
   let [next, setNext] = useState("")
   let [prev, setPrev] = useState("")
 
@@ -45,7 +45,7 @@ function App() {
   useEffect(() => {
     if (searchTerm !== "") {
       if (loadingActive) setLoading(true)
-      axios.get(`http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/search.php?term=${searchTerm}`).then(
+      axios.get(`http://chanchullogames.infinityfreeapp.com/search.php?term=${searchTerm}`).then(
         res => {
           if (res.data.results.length > 0) {
             setDatos(res.data)
