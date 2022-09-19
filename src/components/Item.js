@@ -14,7 +14,7 @@ function Item(props) {
 
     useEffect(() => {
         props.setLoading(true)
-        axios.get(`http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/item.php?id=${params.id}`).then(
+        axios.get(`http://chanchullogames.infinityfreeapp.com/item.php?id=${params.id}`).then(
             res => {
                 if (res.data.results !== null) {
                     setItem(res.data)

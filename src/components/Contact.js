@@ -10,7 +10,7 @@ function Contact(props) {
 
     /* Esto es una chapuza como un piano, lo sé (pero funciona) */
     function send() {
-        axios.get(`http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/contact.php?email=${inputEmail}&body=${inputText}`).then(
+        axios.get(`http://chanchullogames.infinityfreeapp.com/contact.php?email=${inputEmail}&body=${inputText}`).then(
             res => {
                 navigate("/contactFinish")
             }

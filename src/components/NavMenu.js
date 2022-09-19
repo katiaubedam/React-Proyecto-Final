@@ -10,28 +10,28 @@ function NavMenu(props) {
                 <NavItem 
                     name="Home" 
                     setUrl={props.setUrl} 
-                    url="http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/search.php?term=" 
+                    url="http://chanchullogames.infinityfreeapp.com/search.php?term=" 
                     setMenuDisplay={props.setMenuDisplay} 
                     setLoadingActive={props.setLoadingActive}
                 />
                 <NavItem 
                     name="Todos los juegos"
                     setUrl={props.setUrl} 
-                    url="http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/games.php" 
+                    url="http://chanchullogames.infinityfreeapp.com/games.php" 
                     setMenuDisplay={props.setMenuDisplay}
                     setLoadingActive={props.setLoadingActive}
                 />
                 <NavItem 
                     name="Todas las consolas" 
                     setUrl={props.setUrl} 
-                    url="http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/consoles.php" 
+                    url="http://chanchullogames.infinityfreeapp.com/consoles.php" 
                     setMenuDisplay={props.setMenuDisplay}  
                     setLoadingActive={props.setLoadingActive}
                 />
                 <NavItem 
                     name="Todos los accesorios" 
                     setUrl={props.setUrl} 
-                    url="http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/accesories.php" 
+                    url="http://chanchullogames.infinityfreeapp.com/accesories.php" 
                     setMenuDisplay={props.setMenuDisplay}  
                     setLoadingActive={props.setLoadingActive}
                 />
@@ -41,9 +41,9 @@ function NavMenu(props) {
                     setMenuDisplay={props.setMenuDisplay} 
                     setLoadingActive={props.setLoadingActive}
                     subItems={[
-                        {name: "Juegos", url: "http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/games.php?platform=2"},
-                        {name: "Consolas", url: "http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/consoles.php?platform=2"},
-                        {name: "Accesorios", url: "http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/accesories.php?platform=2"}
+                        {name: "Juegos", url: "http://chanchullogames.infinityfreeapp.com/games.php?platform=2"},
+                        {name: "Consolas", url: "http://chanchullogames.infinityfreeapp.com/consoles.php?platform=2"},
+                        {name: "Accesorios", url: "http://chanchullogames.infinityfreeapp.com/accesories.php?platform=2"}
                     ]} 
                 />
                 <NavItemExpandable 
@@ -52,9 +52,9 @@ function NavMenu(props) {
                     setMenuDisplay={props.setMenuDisplay} 
                     setLoadingActive={props.setLoadingActive}
                     subItems={[
-                        {name: "Juegos", url: "http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/games.php?platform=3"},
-                        {name: "Consolas", url: "http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/consoles.php?platform=3"},
-                        {name: "Accesorios", url: "http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/accesories.php?platform=3"}
+                        {name: "Juegos", url: "http://chanchullogames.infinityfreeapp.com/games.php?platform=3"},
+                        {name: "Consolas", url: "http://chanchullogames.infinityfreeapp.com/consoles.php?platform=3"},
+                        {name: "Accesorios", url: "http://chanchullogames.infinityfreeapp.com/accesories.php?platform=3"}
                     ]} 
                 />
                 <NavItemExpandable 
@@ -63,9 +63,9 @@ function NavMenu(props) {
                     setMenuDisplay={props.setMenuDisplay} 
                     setLoadingActive={props.setLoadingActive}
                     subItems={[
-                        {name: "Juegos", url: "http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/games.php?platform=4"},
-                        {name: "Consolas", url: "http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/consoles.php?platform=4"},
-                        {name: "Accesorios", url: "http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/accesories.php?platform=4"}
+                        {name: "Juegos", url: "http://chanchullogames.infinityfreeapp.com/games.php?platform=4"},
+                        {name: "Consolas", url: "http://chanchullogames.infinityfreeapp.com/consoles.php?platform=4"},
+                        {name: "Accesorios", url: "http://chanchullogames.infinityfreeapp.com/accesories.php?platform=4"}
                     ]} 
                 />
                 <NavItemExpandable 
@@ -74,9 +74,9 @@ function NavMenu(props) {
                     setMenuDisplay={props.setMenuDisplay} 
                     setLoadingActive={props.setLoadingActive}
                     subItems={[
-                        {name: "Juegos", url: "http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/games.php?platform=5"},
-                        {name: "Consolas", url: "http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/consoles.php?platform=5"},
-                        {name: "Accesorios", url: "http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/accesories.php?platform=5"}
+                        {name: "Juegos", url: "http://chanchullogames.infinityfreeapp.com/games.php?platform=5"},
+                        {name: "Consolas", url: "http://chanchullogames.infinityfreeapp.com/consoles.php?platform=5"},
+                        {name: "Accesorios", url: "http://chanchullogames.infinityfreeapp.com/accesories.php?platform=5"}
                     ]} 
                 />
                 <NavItemExpandable 
@@ -85,9 +85,9 @@ function NavMenu(props) {
                     setMenuDisplay={props.setMenuDisplay} 
                     setLoadingActive={props.setLoadingActive}
                     subItems={[
-                        {name: "Juegos", url: "http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/games.php?platform=6"},
-                        {name: "Consolas", url: "http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/consoles.php?platform=6"},
-                        {name: "Accesorios", url: "http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/accesories.php?platform=6"}
+                        {name: "Juegos", url: "http://chanchullogames.infinityfreeapp.com/games.php?platform=6"},
+                        {name: "Consolas", url: "http://chanchullogames.infinityfreeapp.com/consoles.php?platform=6"},
+                        {name: "Accesorios", url: "http://chanchullogames.infinityfreeapp.com/accesories.php?platform=6"}
                     ]} 
                 />
                 <Link to="/contact">
