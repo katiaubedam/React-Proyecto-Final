@@ -14,7 +14,7 @@ function LoginModal(props) {
         } else {
             let encPassword = CryptoJS.SHA1(inputPassword).toString()
             props.setLoading(true)
-            axios.get(`http://ec2-13-38-244-163.eu-west-3.compute.amazonaws.com/login.php?user=${inputUser}&password=${encPassword}`).then(
+            axios.get(`http://chanchullogames.infinityfreeapp.com/login.php?user=${inputUser}&password=${encPassword}`).then(
                 res => {
                     if (res.data.results === null) {
                         setErrorLogin("Usuario o contraseña incorrectos. Por favor, inténtalo de nuevo.")
